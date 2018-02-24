@@ -59,4 +59,4 @@ end
 # Bootstrap 4
 gem 'popper_js', '~> 1.12.9'
 gem 'bootstrap', '4.0.0.alpha6'
-
+gem 'simple_form'
