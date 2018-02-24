@@ -1,1 +1,13 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+.navbar {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 200;
+}
+
+.navbar-inverse a.navbar-brand {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 100;	
+}
