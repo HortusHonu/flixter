@@ -13,7 +13,7 @@ class Instructor::LessonsController < ApplicationController
 		redirect_to instructor_course_path(current_section.course)
 	end
 
-		def update
+	def update
 		current_lesson.update_attributes(lesson_params)
 		render plain: 'updated!'
 	end
