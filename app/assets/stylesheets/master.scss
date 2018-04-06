@@ -16,6 +16,15 @@
 	color: white;
 }
 
+.nav-title {
+	font-size: 28px;
+	font-weight: 800;
+}
+
+.nav-title a:hover {
+	text-decoration: none;
+}
+
 .hero {
 	background: image_url('rawpixel-com-460966-unsplash') no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -78,6 +87,13 @@ body {
 	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
 	-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
 	box-shadow: 1px 1px 2px 0 #d0d0d0;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+	padding: 10px;
+}
+
+.course-box {
 	background: #fff;
 	border: 1px solid #ccc;
 	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
@@ -147,4 +163,9 @@ body {
 
 .lessons li p {
 	margin: 0;
+}
+
+.image-center {
+    display: block;
+    text-align: center;
 }
