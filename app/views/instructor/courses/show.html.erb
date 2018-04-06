@@ -1,11 +1,5 @@
 <script>
-	$(function() {
-		$('.new-lesson-button').click(function() {
-			var lessonUrl = $(event.target).data('lesson-url');
-			$('#newLessonForm').attr('action', lessonUrl);
-		})
-	});
-
+	
 	$(function() {
 		$('.lessons').sortable({
 			update: function( event, ui ) {
@@ -18,6 +12,7 @@
 			}
 		});
 	});
+
 	$(function() {
 		$('.sections').sortable({
 			update: function( event, ui ) {
@@ -30,6 +25,14 @@
 			}
 		});
 	});
+
+	$(function() {
+		$('.new-lesson-button').click(function() {
+			var lessonUrl = $(event.target).data('lesson-url');
+			$('#newLessonForm').attr('action', lessonUrl);
+		})
+	});
+
 </script>
 
 <br />
