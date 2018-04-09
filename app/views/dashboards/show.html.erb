@@ -1,12 +1,12 @@
 <br />
 
 <div class="booyah-box col-10 offset-1 text-center">
-	<div class="title-box col-6 offset-3 text-center">
+	<div class="title-box text-center">
 		<h1>What I'm Learning</h1>
 	</div>
 	<br />
 	<% current_user.enrolled_courses.each do |course| %>
-	<div class="course-box col-10 offset-1">
+	<div class="course-box text-center">
 		<h3 class="col-10 offset-1 text-center">
 			<%= link_to course.title, course_path(course) %>
 		</h3>
@@ -16,8 +16,8 @@
 		<div class="row">
 			<div class="col-10 offset-1 text-center">
 				<%= course.description %>
+				<br /><br />
 			</div>
-			<br /><br />
 			<div class="col-10 offset-1 text-center">
 				<%= link_to "More Info...", course_path(course), class: 'btn btn-lg btn-primary' %>
 			</div>
@@ -28,7 +28,7 @@
 	<% end %>
 	<br /><br />
 
-	<div class="title-box col-6 offset-3 text-center">
+	<div class="title-box text-center">
 		<h1>What I'm Teaching</h1>
 	</div>
 	<br />

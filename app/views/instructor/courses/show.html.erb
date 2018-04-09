@@ -37,12 +37,16 @@
 
 <br />
 <div class="booyah-box col-10 offset-1">
-	<h1 class="text-center"><%= current_course.title %></h1>
+	<div class="title-box">
+		<h1 class="text-center"><%= current_course.title %></h1>
+	</div>
+	<br />
 	<div class="image-center">
-	<%= image_tag current_course.image, class: 'img-fluid' %>
-</div>
+		<%= image_tag current_course.image, class: 'img-fluid' %>
+	</div>
 	<br /><br />
 	<%= link_to 'Preview as a Student...', course_path(current_course), class: 'btn btn-warning float-right' %>
+	<br />
 	<br class="clr" />
 	<div class="text-center">
 		<!-- Button trigger modal -->

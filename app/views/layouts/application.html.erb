@@ -61,34 +61,37 @@
 		<div id="footer">
 			<div class="container">
         <div class="row">
-          <div class="col-12 col-sm-3">
+          <div class="col-12 col-sm-3 text-center">
     				<b>Teachers</b>
-    				<br />
+    				<hr><br />
     				<%= link_to 'Teach a Course', new_instructor_course_path %>
             <br />
             <%= link_to 'My Dashboard', dashboard_path %>
+            <br /><br />
     			</div>
-          <div class="col-12 col-sm-3">
+          <div class="col-12 col-sm-3 text-center">
             <b>About</b>
-            <br />
+            <hr><br />
             <%= link_to 'Team', team_path %>
             <br />
             <%= link_to 'Careers', '#' %>
             <br />
             <%= link_to 'Privacy Policy', privacy_path %>
+            <br /><br />
           </div>
-          <div class="col-12 col-sm-3">
+          <div class="col-12 col-sm-3 text-center">
             <b>Contact</b>
-            <br />
+            <hr><br />
             info@flixter.com
             <br />
             My House
             <br />
             Detroit, MI 48207
+            <br /><br />
           </div>
-          <div class="col-12 col-sm-3 social">
+          <div class="col-12 col-sm-3 social text-center">
             <b>Social</b>
-            <br />
+            <hr>
             <br />
             <%= link_to 'https://github.com/HortusHonu', target: :_blank do %>
               <span class="fa fa-github-square fa-2x social-button"></span>

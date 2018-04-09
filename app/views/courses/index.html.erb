@@ -7,7 +7,7 @@
 	<br />
 
 	<% @courses.each do |course| %>
-		<div class="course-box col-10 offset-1">
+		<div class="course-box">
 			<h2 class="text-center">
 				<%= link_to course.title, course_path(course) %></h2>
 			<br />
