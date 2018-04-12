@@ -57,7 +57,7 @@
 	<br/>
 
 
-	<ul class="sections">
+	<ul class=" col-10 offset-1">
 		<% current_course.sections.rank(:row_order).each do |section| %>
 			<li data-update-url="<%= instructor_section_path %>" class="section-li">
 				<div class="header">
@@ -70,7 +70,7 @@
 				</button>
 				<br class="clr" />
 				<br class="clr" />
-				<ul class="lessons">
+				<ul class="lessons col-10 offset-1">
 					<% section.lessons.rank(:row_order).each do |lesson| %>
 						<li data-update-url="<%= instructor_lesson_path(lesson) %>">
 							<div class="row">
