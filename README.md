@@ -1,4 +1,4 @@
 # README
 
 =======
-I am learning how to use Git and it is going very well. 
+Netflix clone for FireHose Academy (Triolgy Education)
