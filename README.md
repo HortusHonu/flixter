@@ -1,4 +1,4 @@
 # README
 
 =======
-Netflix clone for FireHose Academy (Triolgy Education)
+Udemy clone for FireHose Academy (Triolgy Education)
